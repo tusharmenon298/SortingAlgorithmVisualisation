@@ -8,11 +8,12 @@ Its always easier to understand how an algorithm's operation works when you can 
 And after seeing lot of youtube videos which do this, I tried to do the same
 Currently, the project only has 4 sorting algorithms being used here-<br>
 <ul>
-<li> ** Selection Sort ** </li>
-<li> ** Bubble Sort ** </li>
-<li> ** Quick Sort ** </li>
-<li> ** Merge Sort ** </li>
+<li> Selection Sort </li>
+<li> Bubble Sort </li>
+<li> Quick Sort </li>
+<li> Merge Sort </li>
 </ul>
+<br>
 ###### *I'll add more sorts in future versions*
 
 This is how the graphics look like
