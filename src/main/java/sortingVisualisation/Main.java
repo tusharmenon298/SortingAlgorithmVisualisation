@@ -59,15 +59,28 @@ public class Main {
 
     public void run() {
       //for loop for each algo
+      confirmWindow c=new confirmWindow();
         for (ISortAlgorithm algorithm : sortQueue) {
             sleepFor(secondsToNano(1));
-            shuffleAndWait();
-            System.out.println(algorithm.getName()+" is starting");
-            algorithm.runAlgo(algoArray);
-            System.out.println("completed sorting");
-            algoArray.resetColours();
-            algoArray.highlightArray();
-            algoArray.resetColours();
+            int response=c.runWindow(algorithm.getName());
+            if(response == 0)
+            {
+                shuffleAndWait();
+                System.out.println(algorithm.getName()+" is starting");
+                algorithm.runAlgo(algoArray);
+                System.out.println("completed sorting");
+                algoArray.resetColours();
+                algoArray.highlightArray();
+                algoArray.resetColours();
+            }
+            else if(response == 1)
+            {
+                continue;
+            }
+            else
+            {
+                return;
+            }
         }
     }
 
