@@ -15,7 +15,7 @@ Currently, the project only has 4 sorting algorithms being used here-
 ###### *I'll add more sorts in future versions*
 
 This is how the graphics look like
-[Image](https://github.com/tusharmenon298/SortingAlgorithmVisualisation/blob/master/graphics.png?raw=true)
+![Image](https://github.com/tusharmenon298/SortingAlgorithmVisualisation/blob/master/graphics.png?raw=true)
 
 
 ###### This is the first time I added my own project on github
