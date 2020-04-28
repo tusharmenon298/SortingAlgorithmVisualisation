@@ -14,7 +14,8 @@ Currently, the project only has 4 sorting algorithms being used here-<br>
 <li> Merge Sort </li>
 </ul>
 <br>
-###### *I'll add more sorts in future versions*
+
+##### *I'll add more sorts in future versions*
 
 This is how the graphics look like
 ![Image](https://github.com/tusharmenon298/SortingAlgorithmVisualisation/blob/master/graphics.png?raw=true)
