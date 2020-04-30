@@ -78,7 +78,8 @@ public class Main {
                 continue;
             }
             else
-            {
+            {   
+                window.dispose();
                 return;
             }
         }

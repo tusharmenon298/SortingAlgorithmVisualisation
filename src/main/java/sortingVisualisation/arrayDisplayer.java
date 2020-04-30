@@ -23,7 +23,7 @@ import java.util.Random;
 import javax.swing.JPanel;
 
 public class arrayDisplayer extends JPanel {
-    public int WIN_WIDTH = 1400;    //Defining window width
+    public int WIN_WIDTH = 1500;    //Defining window width
     public  int WIN_HEIGHT = 720;   //Defining window height
     private int BAR_WIDTH = 5;      //Defining width for each bar
     private  int NUM_BARS = WIN_WIDTH / BAR_WIDTH; //Calculating number of bars that can fit the screen. This will be our array size

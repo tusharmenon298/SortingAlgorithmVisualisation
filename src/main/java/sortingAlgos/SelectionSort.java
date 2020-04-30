@@ -22,7 +22,7 @@ public class SelectionSort implements ISortAlgorithm
                     min_ind = j;
                 }
             }
-            array.swap(i, min_ind, 40);
+            array.swap(i, min_ind, 100);
         }
     }
 
