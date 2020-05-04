@@ -116,7 +116,7 @@ public class arrayDisplayer extends JPanel {
         graphics.setColor(Color.white);
         for (int x = 0; x < NUM_BARS; x++) {
             int height = getValue(x)*2 ;
-            int xBegin = x + (BAR_WIDTH - 1) * x;
+            int xBegin = x + (BAR_WIDTH - 1)*x ;
             int yBegin = WIN_HEIGHT - height;
 
             int val = barColours[x] * 2;
