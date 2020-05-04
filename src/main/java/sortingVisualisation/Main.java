@@ -20,6 +20,7 @@ import sortingAlgos.QuickSort;
 import sortingAlgos.SelectionSort;
 import static util.Sleep.secondsToNano;
 import static util.Sleep.sleepFor;
+import sortingAlgos.BogoSort;
 
 
 public class Main {
@@ -48,6 +49,7 @@ public class Main {
         sortQueue.add(new BubbleSort());
         sortQueue.add(new MergeSort());
         sortQueue.add(new QuickSort());
+        sortQueue.add(new BogoSort());
     }
 
    //Bar array randomized
