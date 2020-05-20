@@ -18,6 +18,7 @@ import sortingAlgos.ISortAlgorithm;
 import sortingAlgos.MergeSort;
 import sortingAlgos.QuickSort;
 import sortingAlgos.SelectionSort;
+import sortingAlgos.cocktailSort;
 import static util.Sleep.secondsToNano;
 import static util.Sleep.sleepFor;
 import sortingAlgos.BogoSort;
@@ -49,6 +50,7 @@ public class Main {
         sortQueue.add(new BubbleSort());
         sortQueue.add(new MergeSort());
         sortQueue.add(new QuickSort());
+        sortQueue.add(new cocktailSort());
         sortQueue.add(new BogoSort());
     }
 
